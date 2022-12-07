@@ -55,6 +55,6 @@ const startSingleNotification = (req, res) => {
     })
 }
 
-module.exports = { startNotification, startSingleNotification, saveId }
+module.exports = { startNotification, startSingleNotification }
 
 //https://documentation.onesignal.com/docs/generate-an-ios-push-certificate
