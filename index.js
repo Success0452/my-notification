@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 app.use('/', notify_route);
 
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 
 const start = () => {
     app.listen(port, () => console.log( `Server is runinng at port ${port}` ))
